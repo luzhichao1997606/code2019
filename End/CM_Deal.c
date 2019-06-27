@@ -172,6 +172,14 @@ void X232_CM_Control(CUINT8 Device_Road_num,     	   //动作设备路数
 
             X232_CM_buf[X232_CM_SOURCE_VALUE_CODE_POS] = X232_CM_SOURCE_IPOD_CODE;
 
+          case END_CM_SOURCE_NET_CODE:		//音源NET_RIDIO
+
+            X232_CM_buf[X232_CM_SOURCE_VALUE_CODE_POS] = X232_CM_SOURCE_NET_RADIO_CODE;
+
+          case END_CM_SOURCE_NET2_CODE:		//音源CLOUD
+
+            X232_CM_buf[X232_CM_SOURCE_VALUE_CODE_POS] = X232_CM_SOURCE_CLOUD_CODE;
+
             break;
           default:
 

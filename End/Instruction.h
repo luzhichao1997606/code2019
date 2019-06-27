@@ -97,6 +97,9 @@
   #define X232_CM_SOURCE_DVD_CODE            0x06       //音源DVD
   #define X232_CM_SOURCE_FM2_CODE            0x10       //音源FM2
   #define X232_CM_SOURCE_IPOD_CODE           0x11       //音源IPOD
+  #define X232_CM_SOURCE_NET_RADIO_CODE      0x12       //音源NET_RADIO
+  #define X232_CM_SOURCE_CLOUD_CODE          0x13       //音源CLOUD_MUSIC
+
 
   #define X232_CM_AUDIO_NORMAL_CODE					 0x00		//标准
   #define X232_CM_AUDIO_POP_CODE						 0x01		//流行
