@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\debug\thcloud_instr_deal.o"
+".\debug\checksum.o"
+".\debug\stm32f10x_it.o"
+".\debug\main.o"
+".\debug\variable.o"
+".\debug\uart_irq.o"
+".\debug\timer_irq.o"
+".\debug\init.o"
+".\debug\data_poll.o"
+".\debug\core_cm3.o"
+".\debug\instr_send_x485.o"
+".\debug\instr_deal_x485.o"
+".\debug\seqqueue.o"
+".\debug\thend_key_action_deal.o"
+".\debug\cm_deal.o"
+"..\Sys\RS006.lib"
+--library_type=microlib --nodebug --strict --scatter ".\Debug\CM004_BackAudio.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Debug\CM004_BackAudio.map" -o .\Debug\CM004_BackAudio.axf
