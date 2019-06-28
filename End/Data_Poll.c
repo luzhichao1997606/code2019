@@ -52,7 +52,6 @@ void X232_Data_Poll(void)
             UART2_event_index = 0;
             UART2_event_start_Flag = 0;
             UART2_data_length_Flag = 0;
-
             X232_CM_Sensing(X232_CM_Refresh_Road_num);
           }
         }
